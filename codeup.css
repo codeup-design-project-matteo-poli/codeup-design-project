@@ -9,4 +9,10 @@ hr {
     hr {
         display: none;
     }
+    .the-last {
+        display: none;
+    }
+    .news-section {
+        display: none;
+    }
 }
