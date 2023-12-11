@@ -4,6 +4,52 @@
 hr {
     border-top: grey solid 2px;
 }
+.row-images img{
+    height: calc(100% - 20px);
+    width: 100%;
+    padding: 0;
+    border: 5px solid lightgray;
+}
+.caption-text {
+    margin: 1px;
+}
+.card {
+    border: none;
+}
+.card-body {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.letter-icon-design {
+    border-radius: 50%;
+    padding: 6px 10px;
+    margin-right: 5px;
+    background-color: #E6563B;
+    font-weight: bold;
+}
+.letter-icon-develop {
+    border-radius: 50%;
+    padding: 6px 10px;
+    margin-right: 5px;
+    background-color: #EB903A;
+    font-weight: bold;
+}
+.letter-icon-support {
+     border-radius: 50%;
+     padding: 6px 10px;
+     margin-right: 5px;
+     background-color: #7CB06C;
+     font-weight: bold;
+ }
+.letter-icon-host {
+      border-radius: 50%;
+      padding: 6px 10px;
+      margin-right: 5px;
+      background-color: #00ABA9;
+      font-weight: bold;
+  }
+
 /*Using media to hide hr on small screens*/
 @media screen and (max-width: 990px) {
     hr {
