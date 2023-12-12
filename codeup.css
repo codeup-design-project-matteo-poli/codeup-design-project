@@ -142,10 +142,27 @@ hr {
 .news-text {
     font-family: 'Anton', sans-serif;
 }
+.selected-work h3 {
+    font-size: 16px;
+}
+.the-last h3 {
+    font-size: 16px;
+}
 /*This Media is for Large - X-Large screen size*/
 @media screen and  (min-width: 1200px) and (max-width: 1399px)  {
     .news-text {
         margin-left: 20px;
+    }
+    .selected-work {
+        margin-top: 18px;
+    }
+    .the-last {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .news-section {
+        margin-top: 18px;
+        margin-bottom: 18px;
     }
 }
 @media screen and (max-width: 1199px) and (min-width: 991px ) {
@@ -154,6 +171,15 @@ hr {
     }
     .news-text {
         margin-left: 20px;
+    }
+    .selected-work {
+        margin-top: 18px;
+    }
+    .the-last {
+        margin-top: 18px;
+    }
+    .news-section {
+        margin-top: 18px;
     }
 }
 /*Using media to hide hr on small screens*/
@@ -165,11 +191,15 @@ hr {
         display: none;
     }
     .card-text {
-        font-size: 12px;
+        font-size: 18px;
+    }
+    .selected-work {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .letter-icon-design {
         border-radius: 50%;
-        padding: 2px 4px;
+        padding: 4px 8px;
         margin-left: 1px;
         margin-right: 0;
         background-color: #E6563B;
@@ -177,7 +207,7 @@ hr {
     }
     .letter-icon-develop {
         border-radius: 50%;
-        padding: 2px 4px;
+        padding: 4px 8px;
         margin-left: 1px;
         margin-right: 0;
         background-color: #EB903A;
@@ -185,7 +215,7 @@ hr {
     }
     .letter-icon-support {
         border-radius: 50%;
-        padding: 2px 4px;
+        padding: 4px 8px;
         margin-left: 1px;
         margin-right: 0;
         background-color: #7CB06C;
@@ -193,7 +223,7 @@ hr {
     }
     .letter-icon-host {
         border-radius: 50%;
-        padding: 2px 4px;
+        padding: 4px 8px;
         margin-left: 1px;
         margin-right: 0;
         background-color: #00ABA9;
