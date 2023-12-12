@@ -160,9 +160,8 @@ hr {
         margin-top: 18px;
         margin-bottom: 18px;
     }
-    .news-section {
-        margin-top: 18px;
-        margin-bottom: 18px;
+    .card-text {
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 1199px) and (min-width: 991px ) {
@@ -180,6 +179,9 @@ hr {
     }
     .news-section {
         margin-top: 18px;
+    }
+    .card-text {
+        font-size: 14px;
     }
 }
 /*Using media to hide hr on small screens*/
