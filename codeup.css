@@ -143,17 +143,21 @@ hr {
     font-family: 'Anton', sans-serif;
 }
 /*This Media is for Large - X-Large screen size*/
-@media screen and  (min-width: 991px) and (max-width: 1200px)  {
+@media screen and  (min-width: 1200px) and (max-width: 1399px)  {
+    .news-text {
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 991px ) {
     .project-image {
         margin-top: 70px;
     }
-}
-
-/*Using media to hide hr on small screens*/
-@media screen and (max-width: 990px) {
-    hr {
-        display: none;
+    .news-text {
+        margin-left: 20px;
     }
+}
+/*Using media to hide hr on small screens*/
+@media screen and (max-width: 991px ) {
     .the-last {
         display: none;
     }
@@ -195,7 +199,6 @@ hr {
         background-color: #00ABA9;
         font-weight: bold;
     }
-
 }
 @media screen and (max-width: 770px) {
     .card-text {
