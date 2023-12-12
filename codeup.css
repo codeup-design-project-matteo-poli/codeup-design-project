@@ -52,6 +52,13 @@ hr {
       background-color: #00ABA9;
       font-weight: bold;
   }
+.news-text {
+    font-size: 20px;
+    font-weight: bolder;
+}
+.news-img {
+
+}
 
 /*Using media to hide hr on small screens*/
 @media screen and (max-width: 990px) {
