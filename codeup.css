@@ -2,10 +2,21 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #F8F9FA;
+    background-color: #E6E6E6;
+    font-family: 'Abel', sans-serif;
+}
+.navbar {
+    background-color: #E6E6E6;
 }
 hr {
     border-top: grey solid 2px;
+}
+.main-header {
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 20px;
+}
+.location-header {
+    font-family: 'Anton', sans-serif;
 }
 .row-images img{
     height: calc(100% - 20px);
@@ -18,11 +29,69 @@ hr {
 }
 .card {
     border: none;
+    background-color: #E6E6E6;
 }
 .card-body {
     padding-left: 0;
     display: flex;
     justify-content: space-between;
+}
+.header-icons {
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.design-icon {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 75px;
+    height: 75px;
+    margin-right: 5px;
+    background-color: #E6563B;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.develop-icon {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 75px;
+    height: 75px;
+    margin-right: 5px;
+    background-color: #EB903A;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-icon {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 75px;
+    height: 75px;
+    margin-right: 5px;
+    background-color: #7CB06C;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.host-icon {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 75px;
+    height: 75px;
+    margin-right: 5px;
+    background-color: #00ABA9;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .letter-icon-design {
     border-radius: 50%;
@@ -57,12 +126,13 @@ hr {
     font-weight: bolder;
 }
 .article {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .news-text {
-    text-align: center;
+    font-family: 'Anton', sans-serif;
 }
-@media screen and (max-width: 1399px) and (min-width: 990px) {
+/*This Media is for Large - X-Large screen size*/
+@media screen and  (min-width: 991px) and (max-width: 1200px)  {
     .project-image {
         margin-top: 70px;
     }
@@ -132,4 +202,20 @@ margin-bottom: 30px;
     .letter-icon-design {
         padding: 4px 8px;
     }
+    .header-icons {
+        flex-wrap: wrap;
+    }
+    .design-icon {
+        width: 75px;
+    }
+    .develop-icon {
+        width: 75px;
+    }
+    .support-icon {
+         width: 75px;
+    }
+    .host-icon {
+        width: 75px;
+    }
+
 }
