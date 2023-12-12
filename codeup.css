@@ -232,6 +232,9 @@ hr {
         background-color: #00ABA9;
         font-weight: bold;
     }
+    .codeup-design {
+        display: none;
+    }
 }
 /*This is for Small Screens*/
 @media screen and (max-width: 770px) {
