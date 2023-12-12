@@ -56,8 +56,16 @@ hr {
     font-size: 20px;
     font-weight: bolder;
 }
-.news-img {
-
+.article {
+margin-bottom: 30px;
+}
+.news-text {
+    text-align: center;
+}
+@media screen and (max-width: 1399px) and (min-width: 990px) {
+    .project-image {
+        margin-top: 70px;
+    }
 }
 
 /*Using media to hide hr on small screens*/
